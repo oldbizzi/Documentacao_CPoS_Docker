@@ -9,3 +9,4 @@ Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 ```
 docker build -t <nome_da_imagem> <pasta_com_dockerfile>
 ```
+2.

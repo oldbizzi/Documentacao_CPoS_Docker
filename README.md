@@ -31,7 +31,11 @@ O valor de 1500 utilizado, representa o contado apartir do resultado do passo 2 
 6. Com a Dockerfile pronta, executar:
 
 ```bash
-docker build -t <nome_da_imagem> <pasta_com_dockerfile>
+$ docker build -t <nome_da_imagem> <pasta_com_dockerfile>
 ```
 
-
+7. Agora com a imagem gerada, podemos colocar o swarm para rodar.
+```
+$ docker swarm init
+$ docker create service --replicas 4 <nome_da_imagem> <nome_do_servico>
+```

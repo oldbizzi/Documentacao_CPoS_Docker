@@ -6,6 +6,6 @@ Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 
 1. Com a Dockerfile pronta, executar:
 
-´´´
+```
 docker build -t <nome_da_imagem> <pasta_com_dockerfile>
-´´´
+```

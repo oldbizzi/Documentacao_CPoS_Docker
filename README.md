@@ -6,7 +6,7 @@ Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 
 1. Antes de tudo, precisamos fazer a sincronização dos nós coletando o tempo por meio de um comando na shell do Linux, portanto execute e salve o resultado obtido:
 ```bash
-$ python
+$ date +%s
 ```
 2. No arquivo node.py, na variável ```startTime``` (no final do arquivo) colar o resultado do passo anterior.
 

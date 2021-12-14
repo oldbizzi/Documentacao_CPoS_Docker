@@ -5,13 +5,12 @@ Para execução do CPoS em um ambiente Docker, mais especificamente no Swarm. Po
 Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 
 1. Antes de tudo, precisamos fazer a sincronização dos nós coletando o tempo por meio de comandos em python, portanto:
-```
+```bash
 $ python
 ```
 2. No terminal do python, execute e salve o resultado:
 
-```
-
+```python
 import time
 import datetime
 
@@ -22,7 +21,7 @@ float(time.mktime(datetime.datetime.now().timetuple()))
 
 4. Por fim, próximo da linha 400, no laço:
 
-```     
+```python  
 if((1500 - (nowTime - startTime)) > 0):
   time.sleep(1500 - (nowTime - startTime))
   self.startThreads()
@@ -31,7 +30,7 @@ O valor de 1500 utilizado, representa o contado apartir do resultado do passo 2 
 
 6. Com a Dockerfile pronta, executar:
 
-```
+```bash
 docker build -t <nome_da_imagem> <pasta_com_dockerfile>
 ```
 

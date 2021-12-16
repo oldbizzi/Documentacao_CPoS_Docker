@@ -30,11 +30,18 @@ Para melhor compreensão do CPoS, abaixo segue a documentação dos arquivos que
 ### <details><summary>Arquivos python</summary>
 
 [`block.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/block_py.md)
+  
 [`blockchain.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/blockchain_py.md)
+  
 [`bloom_test.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/bloom_test_py.md)
+  
 [`calc.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calc_py.md)
+  
 [`calcProb.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calcProb_py.md)
+  
 [`calc_conluio_committed.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calc_conluio_committed_py.md)
+  
+  
 - [`calc_m_min.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calc_m_min_py.md)
 - [`calculation.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calculation_py.md)
 - [`chaincontrol.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/chaincontrol_py.md)

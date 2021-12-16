@@ -29,11 +29,11 @@ Para melhor compreensão do CPoS, abaixo segue a documentação dos arquivos que
 
 ### <details><summary>Arquivos python</summary>
 
-[`block.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/block_py.md)
+  [`block.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/block_py.md)
   
-[`blockchain.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/blockchain_py.md)
+  [`blockchain.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/blockchain_py.md)
   
-[`bloom_test.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/bloom_test_py.md)
+  [`bloom_test.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/bloom_test_py.md)
   
 [`calc.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calc_py.md)
   

@@ -27,11 +27,12 @@ Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 ## Documentação da execução do CPoS
 Para melhor compreensão do CPoS, abaixo segue a documentação dos arquivos que compõe o CPoS, focando no branch [`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission).
 
-### Arquivos python
-<details>
+<details><summary>### Arquivos python</summary>
+
 - [`node.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/node_py.md)
 - [`block.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/block_py.md)
 - [`blockchain.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/blockchain_py.md)
 - [`bloom_test.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/bloom_test_py.md)
 - [`calc.py`](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Funcionamento/calc_py.md)
- </details>
+ 
+</details>

@@ -1,6 +1,13 @@
 
 # Documentação CPoS para execução no Docker Swarm e CloudLabs
 
+
+Este repositório contem a documentação da execução do Comiteless Proof of Stake. O repositório contendo os códigos se encontra [aqui](https://github.com/regras/cpos_tb/tree/master), o qual contem diversos repositórios ativos cada um com uma funcionalidade específica de quando foi criado. Temos abaixo o nome do repositório e uma pequena explicação sobre seu conteúdo:
+
+- [*cpos_transaction2*](https://github.com/regras/cpos_tb/tree/cpos_transaction2)
+- [*cpos_transatcions*](https://github.com/regras/cpos_tb/tree/cpos_transactions)
+- [*ppos_third_version_2_docker_execution_unicast_transmission*](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)
+
 ## Execução no Swarm local
 Para execução do CPoS em um ambiente Docker, mais especificamente no Swarm. Podemos utilizar tanto uma Dockerfile pura quanto um Docker Compose.
 Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.

@@ -4,7 +4,7 @@
 
 Este repositório contem a documentação da execução do Comiteless Proof of Stake. O repositório contendo os códigos se encontra [aqui](https://github.com/regras/cpos_tb/tree/master), o qual contem diversos repositórios ativos cada um com uma funcionalidade específica de quando foi criado. Temos abaixo o nome do branch e uma pequena explicação sobre seu conteúdo:
 
-<details><summary> Descrição dos Repositórios<\summary>
+<details><summary> Descrição dos Repositórios</summary>
 
 |Branch|Descrição|Atividade|
 |:------:|:------:|:------:|
@@ -13,7 +13,7 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 | [`cpos_transaction2`](https://github.com/regras/cpos_tb/tree/cpos_transaction2)| Repositório idêntico ao *cpos_transactions*, porém, irá conter a implementação com MySQL| Ativo|
 | [`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)| Versão que o autor, Diego, utilizou para seus testes da tese| Ativo|
 
-<\details>
+</details>
   
   
 ## Execução no Swarm local

@@ -1,4 +1,4 @@
-# Configuração e parâmetros do protocolo
+# Configuração do protocolo
 
 Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações utilizando um terminal bash.
 
@@ -24,6 +24,16 @@ Copie o resultado retornado por esse processo.
 startTime = <resultado_UTC>
 ```
 
+3.1 No mesmo arquivo, mas no laço que depende da variável nowTime, o valor colocado no lugar de <delay> representa o tempo decorrido (sem segundos) desde a coleta do tempo UTC no passo anterior até o início da mineração pelos nós. Portanto, se achar que irá levar mais tempo, coloque um tempo mais alto, e vice versa.
+  
+```python
+nowTime = float(time.mktime(datetime.datetime.now().timetuple()))
+print("startTime: ", startTime)        
+if((<delay> - (nowTime - startTime)) > 0):
+    time.sleep(<delay> - (nowTime - startTime))
+self.startThreads()
+```
+
 4. No nó manager (se você estiver utilizando apenas um PC, execute neste mesmo já que será o seu manager) execute para remover o overlay network:
 ```bash
 $ sudo docker newtork rm netppos
@@ -33,15 +43,30 @@ $ sudo docker newtork rm netppos
 ```bash
 $ sudo docker network create --driver overlay --subnet 10.10.0.0/22 --gateway 10.1.0.1 netcpos
 ```
+6. Devemos remover o arquivo peers.pkl, que contem a topologia da rede e executaro comando abaixo que irá :
+```bash
+$ python topology.py
+```
 
-6. Crie uma imagem do CPoS executando:
+7. Crie uma imagem do CPoS executando:
 ```bash
 $ sudo docker build - t docker_hub/repositorio:cpos .
 ```
 
-7. Devemos subir agora o serviço no swarm executando no manager do swarm:
+8. Devemos subir agora o serviço no swarm executando no manager do swarm:
 ```bash
 $ sudo docker stack deploy --compose-file docker-compose.yml cpos
 ```
 
-8. 
+# Parâmetros
+No arquivo parameter.py temos uma série de parâmetos configuráveis:
+- `timeout` representa o tempo da rodada;
+- `epsilon` define a segurança do protocolo, representando a probabilidade de reversão. Quanto menor, mais seguro.
+- `TEST` tempo de teste;
+- `W` número de moedas da rede;
+- `q` probabilidade de nós desonestos;
+- `tal` quantidade esperada de sorteios bem sucedidos dentro de uma rodada;
+- `nodes` números de nós;
+- `k` fração de peers, número de nós que cada nó estará conectado;
+- `numStake` define a distribuição de stake nos nós. Só foi testada a distribuição igual entre os nós até agora.
+

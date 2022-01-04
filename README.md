@@ -39,6 +39,6 @@ Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.
 - [Usando o Compose](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Execu%C3%A7%C3%A3oDocker/Docker_Compose.md)
 
 ## Documentação da execução do CPoS
-Para melhor compreensão do CPoS, neste [link]() temos a documentação, ainda em construção, dos arquivos que compõe o protocolo.
+Para melhor compreensão do CPoS, neste [link](https://github.com/oldbizzi/Documentacao_CPoS_Docker/tree/main/Funcionamento) temos a documentação, ainda em construção, dos arquivos que compõe o protocolo.
 
 

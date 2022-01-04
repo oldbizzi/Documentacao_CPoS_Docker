@@ -29,7 +29,9 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 - [`cpos_transaction2`](https://github.com/regras/cpos_tb/tree/cpos_transaction2): Versão melhorada do `cpos_transactions` contando com o MySQL no lugar do SQLite3 
 
   
-  
+## Configurações pré-execução
+Para realizar a execução correta do protocolo, é necessário realizar a configuração de alguns parâmetros. A documentação dessa configuração se encontra disponível [aqui](https://github.com/oldbizzi/Documentacao_CPoS_Docker/tree/main/Funcionamento). Reforçamos que por hora estas configurações são imprescindíveis para o funcionamento do protocolo, mas no futuro, podem ser feitas modificações no código que torne este conteúdo obsoleto.
+
 ## Execução no Swarm local
 Para execução do CPoS em um ambiente Docker, mais especificamente no Swarm. Podemos utilizar tanto uma Dockerfile pura quanto um Docker Compose.
 Inicialmente descreve-se o procedimento de como executar com uma Dockerfile.

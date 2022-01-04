@@ -8,33 +8,17 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 
 |Branch|Descrição|Atividade|
 |:------|:------:|:------:|
-
 | [`master`](https://github.com/regras/cpos_tb/tree/master)| Futuramente vai conter a versão final do procotolo, mas atualmente está vazio.| Stale|
-
+|[`ppos_first_version_stable`](https://github.com/regras/cpos_tb/tree/ppos_first_version_stable)|Primeira versão estável do PPoS, ainda sem a integração com o Docker sem a resolução do problema da confirmação em uma rede real de operação.|stale|
+|[`ppos_second_version_stable`](https://github.com/regras/cpos_tb/tree/ppos_second_version_stable)|Segunda versão estável do PPoS, iniciada a confirmação probabilística.|stale|
+|[`ppos_third_version_1`](https://github.com/regras/cpos_tb/tree/ppos_third_version_1)|Primeira versão do protocolo atual com a confirmação probabilística atual, sem Docker.|stale|
+|[`ppos_third_version_2_docker_execution_gui`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_gui)|Integração da versão anterior com a interface de visualização já com a integraçã Docker|stale|
+|[`ppos_third_version_2_docker_execution_transaction`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_transaction)|Versão com desenvolvimento das transações mas com foco no protocolo de consenso.|stale|
+|[`ppos_third_version_2_docker_execution_unicast_transmission_header_block`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission_header_block)|Versão utilizada para avaliar o desempenho em relação ao tráfego de rede produzido quando apenas os headers dos blocos são transmitidos em um primeiro momento. Logo depois, em uma segunda fase da rodada, apenas os melhores k blocos (com os menores hash de prova) são completamente transmitidos.|stale|
+|[`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)|Versão com a remodelação do modelo de transmissão do bloco para que um nó enviasse apenas para seus peers. |stale|
+|[`ppos_third_version_2_docker_execution`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution)|Versão com migração do Mininet para o Docker, aqui ainda sem a versão unicast.|stale|
 | [`cpos_transactions`](https://github.com/regras/cpos_tb/tree/cpos_transactions) | Repositório contendo o CPoS que gera transações reais baseada no SQLite3|stale|
-
 | [`cpos_transaction2`](https://github.com/regras/cpos_tb/tree/cpos_transaction2)| Versão melhorada do `cpos_transactions` contando com o MySQL no lugar do SQLite3 | stale|
-
-| [`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)| Versão que o autor, Diego, utilizou para seus testes da tese|stale|
-  
-|[`ppos_first_version_stable`](https://github.com/regras/cpos_tb/tree/ppos_first_version_stable)||stale|
-  
-|[`ppos_second_version_stable`](https://github.com/regras/cpos_tb/tree/ppos_second_version_stable)||stale|
-
-|[`ppos_third_version_1`](https://github.com/regras/cpos_tb/tree/ppos_third_version_1)||stale|
-
-|[`ppos_third_version_1`](https://github.com/regras/cpos_tb/tree/ppos_third_version_1)||stale|
-
-|[`ppos_third_version_2_docker_execution_gui`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_gui)||stale|
-
-|[`ppos_third_version_2_docker_execution_transaction`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_transaction)||stale|
-
-|[`ppos_third_version_2_docker_execution_unicast_transmission_header_block`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission_header_block)||stale|
-
-|[`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)||stale|
-
-|[`ppos_third_version_2_docker_execution`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution)||stale|
-
 </details>
   
   

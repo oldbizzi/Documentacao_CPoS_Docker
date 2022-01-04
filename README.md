@@ -9,10 +9,17 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 |Branch|Descrição|Atividade|
 |:------:|:------:|:------:|
 | [`master`](https://github.com/regras/cpos_tb/tree/master)| Futuramente vai conter a versão final do procotolo, mas atualmente está vazio.| Stale|
-| [`pos_transatcions`](https://github.com/regras/cpos_tb/tree/cpos_transactions) | Repositório contendo o CPoS que gera transações reais baseada no SQLite3.| Ativo|
-| [`cpos_transaction2`](https://github.com/regras/cpos_tb/tree/cpos_transaction2)| Repositório idêntico ao *cpos_transactions*, porém, irá conter a implementação com MySQL| Ativo|
-| [`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)| Versão que o autor, Diego, utilizou para seus testes da tese| Ativo|
-
+| [`pos_transatcions`](https://github.com/regras/cpos_tb/tree/cpos_transactions) | Repositório contendo o CPoS que gera transações reais baseada no SQLite3.|stale|
+| [`cpos_transaction2`](https://github.com/regras/cpos_tb/tree/cpos_transaction2)| Repositório idêntico ao *cpos_transactions*, porém, irá conter a implementação com MySQL| stale|
+| [`ppos_third_version_2_docker_execution_unicast_transmission`](https://github.com/regras/cpos_tb/tree/ppos_third_version_2_docker_execution_unicast_transmission)| Versão que o autor, Diego, utilizou para seus testes da tese|stale|
+|`ppos_third_version_stable`||stale|
+|`ppos_second_version_stable`||stale|
+|`ppos_third_version_1`||stale|
+|`ppos_third_version_2_docker_execution_gui`||stale|
+|`ppos_third_version_2_docker_execution_transaction`||stale|
+|`ppos_third_version_2docker_execution_unicast_transmission_header_block`||stale|
+|`ppos_third_version_2_docker_execution_unicast_transmission`||stale|
+|`ppos_third_version_2_docker_execution`||stale|
 </details>
   
   

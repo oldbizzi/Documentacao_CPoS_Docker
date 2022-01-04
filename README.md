@@ -6,8 +6,6 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 
 ## Descrição dos Repositórios
 
-***
-
 [`master`](https://github.com/regras/cpos_tb/tree/master): Futuramente vai conter a versão final do procotolo, mas atualmente está vazio.
 
 [`ppos_first_version_stable`](https://github.com/regras/cpos_tb/tree/ppos_first_version_stable): Primeira versão estável do PPoS, ainda sem a integração com o Docker sem a resolução do problema da confirmação em uma rede real de operação.

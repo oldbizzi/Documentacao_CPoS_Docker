@@ -4,7 +4,9 @@
 
 Este repositório contem a documentação da execução do Comiteless Proof of Stake. O repositório contendo os códigos se encontra [aqui](https://github.com/regras/cpos_tb/tree/master), o qual contem diversos repositórios ativos cada um com uma funcionalidade específica de quando foi criado. Temos abaixo o nome do branch e uma pequena explicação sobre seu conteúdo:
 
-Descrição dos Repositórios
+## Descrição dos Repositórios
+
+***
 
 [`master`](https://github.com/regras/cpos_tb/tree/master): Futuramente vai conter a versão final do procotolo, mas atualmente está vazio.
 

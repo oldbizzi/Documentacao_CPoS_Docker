@@ -4,7 +4,7 @@ Para o funcionamento correto do protocolo, antes de sua execução é necessári
 
 1. Antes de qualquer coisa, recomenda-se fazer uma limpeza nos processos, imagens e redes criadas:
 ```bash
-sudo docker service rm cpos_cpos // remove o serviõ do swarm cpos_cpos
-sudo docker network rm netcpos // remove a rede netcpos criada
-sudo docker image rm cpos // remove a imagem cpos criada
+sudo docker service rm cpos_cpos #remove o serviço do swarm cpos_cpos
+sudo docker network rm netcpos #remove a rede netcpos criada
+sudo docker image rm cpos #remove a imagem cpos criada
 ```

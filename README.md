@@ -30,7 +30,7 @@ Este repositório contem a documentação da execução do Comiteless Proof of S
 
   
 ## Configurações e execução
-Para realizar a execução correta do protocolo, é necessário realizar a configuração de alguns parâmetros. A documentação dessa configuração se encontra disponível [aqui](https://github.com/oldbizzi/Documentacao_CPoS_Docker/tree/main/Configuracao). Reforçamos que por hora estas configurações são imprescindíveis para o funcionamento do protocolo, mas no futuro, podem ser feitas modificações no código que torne este conteúdo obsoleto.
+Para realizar a execução correta do protocolo, é necessário realizar a configuração de alguns parâmetros. Reforçamos que por hora estas configurações são imprescindíveis para o funcionamento do protocolo, mas no futuro, podem ser feitas modificações no código que torne este conteúdo obsoleto.
 
 - [Local](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Configuracao/Local.md)
 - [Cloud](https://github.com/oldbizzi/Documentacao_CPoS_Docker/blob/main/Configuracao/Cloud.md)

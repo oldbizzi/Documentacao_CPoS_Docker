@@ -1,4 +1,4 @@
-# Parâmetros, configuração e execução do CPoS
+# Parâmetros, configuração e execução do CPoS localmente
 
 Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações utilizando um terminal bash. A configuração manual tanto quanto a configuração dos parâmetros é necessária.
 

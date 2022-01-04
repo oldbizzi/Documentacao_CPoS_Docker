@@ -1,7 +1,19 @@
 # Configuração do protocolo
 
-Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações utilizando um terminal bash.
+Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações utilizando um terminal bash. A configuração manual tanto quanto a configuração dos parâmetros é necessária.
 
+## 1. Parâmetros
+No arquivo parameter.py temos uma série de parâmetos configuráveis:
+- `timeout` representa o tempo da rodada;
+- `epsilon` define a segurança do protocolo, representando a probabilidade de reversão. Quanto menor, mais seguro.
+- `TEST` tempo de teste;
+- `W` número de moedas da rede;
+- `q` probabilidade de nós desonestos;
+- `tal` quantidade esperada de sorteios bem sucedidos dentro de uma rodada;
+- `nodes` números de nós;
+- `k` fração de peers, número de nós que cada nó estará conectado;
+- `numStake` define a distribuição de stake nos nós. Só foi testada a distribuição igual entre os nós até agora.
+## 2. Configuração
 1. Antes de qualquer coisa, recomenda-se fazer uma limpeza nos processos, imagens e redes criadas:
 
 ```bash
@@ -58,15 +70,5 @@ $ sudo docker build - t docker_hub/repositorio:cpos .
 $ sudo docker stack deploy --compose-file docker-compose.yml cpos
 ```
 
-# Parâmetros
-No arquivo parameter.py temos uma série de parâmetos configuráveis:
-- `timeout` representa o tempo da rodada;
-- `epsilon` define a segurança do protocolo, representando a probabilidade de reversão. Quanto menor, mais seguro.
-- `TEST` tempo de teste;
-- `W` número de moedas da rede;
-- `q` probabilidade de nós desonestos;
-- `tal` quantidade esperada de sorteios bem sucedidos dentro de uma rodada;
-- `nodes` números de nós;
-- `k` fração de peers, número de nós que cada nó estará conectado;
-- `numStake` define a distribuição de stake nos nós. Só foi testada a distribuição igual entre os nós até agora.
+
 

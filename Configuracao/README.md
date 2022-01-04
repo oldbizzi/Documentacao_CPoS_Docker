@@ -1,6 +1,6 @@
 # Configuração e parâmetros do protocolo
 
-Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações.
+Para o funcionamento correto do protocolo, antes de sua execução é necessário realizar uma série de configurações utilizando um terminal bash.
 
 1. Antes de qualquer coisa, recomenda-se fazer uma limpeza nos processos, imagens e redes criadas:
 
@@ -36,5 +36,12 @@ $ sudo docker network create --driver overlay --subnet 10.10.0.0/22 --gateway 10
 
 6. Crie uma imagem do CPoS executando:
 ```bash
-
+$ sudo docker build - t docker_hub/repositorio:cpos .
 ```
+
+7. Devemos subir agora o serviço no swarm executando no manager do swarm:
+```bash
+$ sudo docker stack deploy --compose-file docker-compose.yml cpos
+```
+
+8. 

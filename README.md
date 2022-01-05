@@ -40,4 +40,8 @@ Para realizar a execução correta do protocolo, é necessário realizar a confi
 ## Documentação da execução do CPoS
 Para melhor compreensão do CPoS, neste [link](https://github.com/oldbizzi/Documentacao_CPoS_Docker/tree/main/Funcionamento) temos a documentação, ainda em construção, dos arquivos que compõe o protocolo.
 
+## Disclaimer
+
+Nós não desenvolvemos o protocolo de consenso CPoS, apenas estudamos sobre e montamos a documentação.
+
 

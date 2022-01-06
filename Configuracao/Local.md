@@ -75,5 +75,10 @@ $ sudo docker build - t docker_hub/repositorio:cpos .
 $ sudo docker stack deploy --compose-file docker-compose.yml cpos
 ```
 
+## 4. Monitoramento
+  
+Para acessar a screen com o protocolo execute no terminal acessado no container nó:
 
+  1.  `screen -d` para verificar o código do screen
+  2.  `screen -r <screen code>` para  ver a screen em background
 

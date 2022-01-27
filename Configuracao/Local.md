@@ -48,7 +48,7 @@ self.startThreads()
 
 4. No nó manager (se você estiver utilizando apenas um PC, execute neste mesmo já que será o seu manager) execute para remover o overlay network:
 ```bash
-$ sudo docker newtork rm netcpos
+$ sudo docker network rm netcpos
 ```
 
 5. Recrie a overlay network executando no manager novamente:

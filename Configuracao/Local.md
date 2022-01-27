@@ -53,7 +53,7 @@ $ sudo docker network rm netcpos
 
 5. Recrie a overlay network executando no manager novamente:
 ```bash
-$ sudo docker network create --driver overlay --subnet 10.1.0.0/22 --gateway 10.1.0.1 netcpos
+ sudo docker network create --driver overlay --subnet 10.1.0.0/22 --gateway 10.1.0.1 netcpos
 ```
 6. Devemos remover o arquivo peers.pkl, que contem a topologia da rede e recria-lo por meio dos comandos:
 ```bash

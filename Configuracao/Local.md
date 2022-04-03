@@ -17,14 +17,14 @@ No arquivo parameter.py temos uma série de parâmetos configuráveis:
 1. Antes de qualquer coisa, recomenda-se fazer uma limpeza nos processos, imagens e redes criadas:
 
 ```bash
-$ sudo docker service rm cpos_cpos #remove o serviço do swarm cpos_cpos
-$ sudo docker network rm netcpos #remove a rede netcpos criada
-$ sudo docker image rm cpos #remove a imagem cpos criada
+ sudo docker service rm cpos_cpos #remove o serviço do swarm cpos_cpos
+ sudo docker network rm netcpos #remove a rede netcpos criada
+ sudo docker image rm cpos #remove a imagem cpos criada
 ```
 
 2. Feita essa remoção, precisamos coletar o tempo atual em UTC. Em um terminal:
 ```bash
-$ python
+ python
   >python import time
   >python import datetime
   >python float(time.mktime(datetime.datetime.now()timetuple())))
@@ -48,7 +48,7 @@ self.startThreads()
 
 4. No nó manager (se você estiver utilizando apenas um PC, execute neste mesmo já que será o seu manager) execute para remover o overlay network:
 ```bash
-$ sudo docker network rm netcpos
+ sudo docker network rm netcpos
 ```
 
 5. Recrie a overlay network executando no manager novamente:
@@ -57,8 +57,8 @@ $ sudo docker network rm netcpos
 ```
 6. Devemos remover o arquivo peers.pkl, que contem a topologia da rede e recria-lo por meio dos comandos:
 ```bash
-$ rm peers.pkl
-$ python topology.py
+ rm peers.pkl
+ python topology.py
 ```
 ## 3. Execução
 
@@ -66,13 +66,13 @@ Agora com toda a configuração realizada, devemos colocar o protocolo para roda
   
 1. Crie uma imagem do CPoS executando:
 ```bash
-$ sudo docker build - t docker_hub/repositorio:cpos .
+ sudo docker build - t docker_hub/repositorio:cpos .
 ```
 1.1 Caso você queira criar uma imagem base para subir no repositório também é possível. Isso foi feito utilizando o arquivo Dockerfile_basic, tal arquivo era renomeado como Dockerfile apenas e usado para gerar uma imagem que era submetido no repositório de imagens. Ao final deste processo os nomes eram revertidos.
   
 2. Devemos subir agora o serviço no swarm executando no manager do swarm:
 ```bash
-$ sudo docker stack deploy --compose-file docker-compose.yml cpos
+ sudo docker stack deploy --compose-file docker-compose.yml cpos
 ```
 
 ## 4. Monitoramento

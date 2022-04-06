@@ -17,9 +17,9 @@ No arquivo parameter.py temos uma série de parâmetos configuráveis:
 1. Antes de qualquer coisa, recomenda-se fazer uma limpeza nos processos, imagens e redes criadas:
 
 ```bash
- sudo docker service rm cpos_cpos #remove o serviço do swarm cpos_cpos
- sudo docker network rm netcpos #remove a rede netcpos criada
- sudo docker image rm cpos #remove a imagem cpos criada
+sudo docker service rm cpos_cpos #remove o serviço do swarm cpos_cpos
+sudo docker network rm netcpos #remove a rede netcpos criada
+sudo docker image rm cpos #remove a imagem cpos criada
 ```
 
 2. Feita essa remoção, precisamos coletar o tempo atual em UTC. Em um terminal:
@@ -45,17 +45,18 @@ self.startThreads()
 
 4. No nó manager (se você estiver utilizando apenas um PC, execute neste mesmo já que será o seu manager) execute para remover o overlay network:
 ```bash
- sudo docker network rm netcpos
+sudo docker network rm netcpos
 ```
 
 5. Recrie a overlay network executando no manager novamente:
+
 ```bash
- sudo docker network create --driver overlay --subnet 10.1.0.0/22 --gateway 10.1.0.1 netcpos
+sudo docker network create --driver overlay --subnet 10.1.0.0/22 --gateway 10.1.0.1 netcpos
 ```
 6. Devemos remover o arquivo peers.pkl, que contem a topologia da rede e recria-lo por meio dos comandos:
 ```bash
- rm peers.pkl
- python topology.py
+rm peers.pkl
+python topology.py
 ```
 ## 3. Execução
 

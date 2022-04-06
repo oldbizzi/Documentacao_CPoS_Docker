@@ -64,13 +64,13 @@ Agora com toda a configuração realizada, devemos colocar o protocolo para roda
   
 1. Crie uma imagem do CPoS executando:
 ```bash
- sudo docker build -t docker_hub/repositorio:cpos .
+sudo docker build -t docker_hub/repositorio:cpos .
 ```
 1.1 Caso você queira criar uma imagem base para subir no repositório também é possível. Isso foi feito utilizando o arquivo Dockerfile_basic, tal arquivo era renomeado como Dockerfile apenas e usado para gerar uma imagem que era submetido no repositório de imagens. Ao final deste processo os nomes eram revertidos.
   
 2. Devemos subir agora o serviço no swarm executando no manager do swarm:
 ```bash
- sudo docker stack deploy --compose-file docker-compose.yml cpos
+sudo docker stack deploy --compose-file docker-compose.yml cpos
 ```
 
 ## 4. Monitoramento

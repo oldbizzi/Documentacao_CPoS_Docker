@@ -24,10 +24,7 @@ No arquivo parameter.py temos uma série de parâmetos configuráveis:
 
 2. Feita essa remoção, precisamos coletar o tempo atual em UTC. Em um terminal:
 ```bash
- python
-  >python import time
-  >python import datetime
-  >python float(time.mktime(datetime.datetime.now()timetuple())))
+date +%s
 ```
 Copie o resultado retornado por esse processo.
 
